@@ -88,13 +88,13 @@ const Table = ({ solvedProcessesInfo }: TableProps) => {
   const averageWAT = totalWAT / numberOfProcesses;
 
   return (
-    <TableWrapper>    
+    <TableWrapper>
       <StyledTable>
         <thead>
           <tr>
-            <HeaderCell>Job</HeaderCell>
+            <HeaderCell>Process</HeaderCell>
             <HeaderCell>Arrival Time</HeaderCell>
-            <HeaderCell>Burst Time</HeaderCell>
+            <HeaderCell>Execution time</HeaderCell>
             <HeaderCell>Finish Time</HeaderCell>
             <HeaderCell>Turnaround Time</HeaderCell>
             <HeaderCell>Waiting Time</HeaderCell>

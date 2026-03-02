@@ -215,7 +215,7 @@ const Input = (props: InputProps) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor="arrival-time">Arrival Times</label>
+          <label htmlFor="arrival-time">Arrival time</label>
           <input
             onChange={handleArrivalTimeChange}
             type="text"
@@ -225,7 +225,7 @@ const Input = (props: InputProps) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor="burst-time">Burst Times</label>
+          <label htmlFor="burst-time">Execution time</label>
           <input
             onChange={handleBurstTimeChange}
             type="text"
